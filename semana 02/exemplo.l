@@ -5,9 +5,7 @@
 /* Definições de padrões de token e ações */
 %%
 
-
 [ \t\n]+              { /* Não faz nada, apenas ignora */ }
-
 
 [+\-]?[0-9]{1,10}     {
                         /* Converter o lexema para inteiro (pode estourar se for maior que INT, 
