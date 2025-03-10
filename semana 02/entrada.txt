@@ -1,0 +1,6 @@
+1234
++999999999
+-42
+   567
+9999999999
++12345678901   <-- este tem 11 dígitos, logo quebrará o padrão e não será capturado.
