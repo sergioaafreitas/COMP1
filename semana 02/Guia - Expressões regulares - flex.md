@@ -1,4 +1,4 @@
-*Guia rápido* das expressões regulares mais usadas **no Flex**
+# *Guia rápido* das expressões regulares mais usadas **no Flex**
 
 ## 1. Sintaxe básica de expressões regulares no Flex
 
@@ -43,7 +43,7 @@ Onde *Padrão* é uma expressão regular que descreve quais cadeias o analisador
 
 - **Parênteses**: `(...)`  
   - Agrupam subpadrões e permitem aplicar operadores de repetição ao grupo.  
-- **Barrinha de alternância**: `|`  
+- **Barra de alternância**: `|`  
   - Indica “OU” entre padrões. Ex: `(while|for|if)`  
 - **Classes de caracteres**: `[ ... ]`  
   - Lista de caracteres que podem aparecer em uma posição.  
