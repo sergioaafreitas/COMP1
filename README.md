@@ -116,7 +116,7 @@ Este projeto está licenciado sob os termos da [Licença MIT](LICENSE).
 
 - **Professor**: *Sergio A. A. Freitas*  
 - **E-mail**: *sergiofreitas@unb.br*  
-- [Universidade de Brasília (UnB)](https://www.unb.br/) – FCTE  
+- [Universidade de Brasília (UnB)](https://www.unb.br/) – [FCTE](https://fcte.unb.br/) - [CEDIS](https://cedis.unb.br/)
 
 Em caso de dúvidas, sugestões ou problemas, abra uma *issue* ou envie um e-mail diretamente.
 
