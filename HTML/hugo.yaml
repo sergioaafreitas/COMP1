@@ -1,0 +1,139 @@
+baseURL: "http://localhost:1313/"
+title: "CEDIS / UnB - Compiladores 1"
+contentDir: "content/pt"
+defaultContentLanguage: "pt"
+defaultContentLanguageInSubdir: false
+enableMissingTranslationPlaceholders: true
+
+enableRobotsTXT: true
+enableGitInfo: true
+
+# Taxonomias
+taxonomies:
+  tag: tags
+  category: categories
+
+# Configuração do realce de código
+pygmentsCodeFences: true
+pygmentsUseClasses: false
+pygmentsUseClassic: false
+pygmentsStyle: "tango"
+
+# Configuração dos permalinks para seção "blog"
+permalinks:
+  blog: "/:section/:year/:month/:day/:slug/"
+
+# Configuração de processamento de imagens
+imaging:
+  resampleFilter: "CatmullRom"
+  quality: 75
+  anchor: "smart"
+
+# Configuração de idiomas
+languages:
+  en:
+    languageName: "English"
+    title: "CEDIS / UnB - Compilers 1"
+    params:
+      description: "A Docsy example site"
+  pt:
+    languageName: "Português"
+    title: "Compiladores 1 - FGA0003"
+    params:
+      description: "A Docsy example site"
+      time_format_default: "02/01/2006"
+      time_format_blog: "02/01/2006"
+
+
+# Configuração de marcação e realce (Goldmark e Chroma)
+markup:
+  goldmark:
+    parser:
+      attribute:
+        block: true
+    renderer:
+      unsafe: true
+  highlight:
+    style: "tango"
+
+# Outputs para seções (HTML, print e RSS)
+outputs:
+  section:
+    - HTML
+    - print
+    - RSS
+
+# Parâmetros do site (Site Params)
+params:
+  taxonomy:
+    taxonomyCloud:
+      - tags
+      - categories
+    taxonomyCloudTitle:
+      - "Tag Cloud"
+      - "Categories"
+    taxonomyPageHeader:
+      - tags
+      - categories
+  privacy_policy: "https://policies.google.com/privacy"
+  version_menu: "Releases"
+  archived_version: false
+  version: 0.0
+  url_latest_version: "https://example.com"
+  github_repo: "https://github.com/google/docsy-example"
+  github_project_repo: "https://github.com/google/docsy"
+  github_branch: "main"
+  gcs_engine_id: "d72aa9b2712488cc3"
+  offlineSearch: false
+  prism_syntax_highlighting: false
+  copyright:
+    authors: "CEDIS | [MIT] |"
+    from_year: 2025
+  ui:
+    breadcrumb_disable: false
+    navbar_logo: true
+    navbar_translucent_over_cover_disable: false
+    sidebar_menu_compact: false
+    sidebar_search_disable: false
+    feedback:
+      enable: true
+      yes: "Glad to hear it! Please <a href='https://github.com/USERNAME/REPOSITORY/issues/new'>tell us how we can improve</a>."
+      no: "Sorry to hear that. Please <a href='https://github.com/USERNAME/REPOSITORY/issues/new'>tell us how we can improve</a>."
+    readingtime:
+      enable: false
+  links:
+    user:
+      - name: "User mailing list"
+        url: "https://example.org/mail"
+        icon: "fa fa-envelope"
+        desc: "Discussion and help from your fellow users"
+      - name: "Twitter"
+        url: "https://example.org/twitter"
+        icon: "fab fa-twitter"
+        desc: "Follow us on Twitter to get the latest news!"
+      - name: "Stack Overflow"
+        url: "https://example.org/stack"
+        icon: "fab fa-stack-overflow"
+        desc: "Practical questions and curated answers"
+    developer:
+      - name: "GitHub"
+        url: "https://github.com/google/docsy"
+        icon: "fab fa-github"
+        desc: "Development takes place here!"
+      - name: "Slack"
+        url: "https://example.org/slack"
+        icon: "fab fa-slack"
+        desc: "Chat with other project developers"
+      - name: "Developer mailing list"
+        url: "https://example.org/mail"
+        icon: "fa fa-envelope"
+        desc: "Discuss development issues around the project"
+
+# Configuração dos módulos Hugo (usando Docsy como módulo)
+module:
+  hugoVersion:
+    extended: true
+    min: "0.110.0"
+  imports:
+    - path: "docsy"
+      disable: false
