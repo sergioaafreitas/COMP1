@@ -1,8 +1,9 @@
 # **Proposta de Trabalho – Compiladores 1 (2025/1)**
 
-**Professor:** Dr. Sergio Antônio Andrade de Freitas  
-**Contato:** sergiofreitas@unb.br  
-**Homepage da disciplina:** [Inserir Link]
+**Professor:** Sergio Antônio Andrade de Freitas  
+**Contato:** [sergiofreitas@unb.br](mailto:sergiofreitas@unb.br)  
+**Homepage da disciplina:** Teams
+**GitHub da disciplina**: [https://github.com/sergioaafreitas/COMP1](https://github.com/sergioaafreitas/COMP1)
 
 ## **1. Objetivo do Trabalho**
 
