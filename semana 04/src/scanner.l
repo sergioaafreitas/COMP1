@@ -1,3 +1,12 @@
+/******************************************************
+FGA0003 - Compiladores 1
+Curso de Engenharia de Software
+Universidade de Brasília (UnB)
+
+Arquivo: lexer.l
+Descrição: Exemplo de analisador léxico (tokens aritméticos)
+******************************************************/
+
 %{
 #include <stdio.h>
 #include <stdlib.h>
