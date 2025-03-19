@@ -22,7 +22,7 @@ Este repositório contém exemplos de código usando **Flex** e **Bison** (exclu
 │   │   ├── Guia - Configuração do ambiente de desenvolvimento.md
 │   │   ├── Guia - Projeto de um compilador.md
 │   │   ├── Guia - Projeto de um interpretador.md
-│   │   └── Projeto da disciplina.md
+│   │   └── Trabalho de Compiladores.md
 │   └── src
 │       ├── hello.README.md
 │       ├── hello.l
@@ -71,7 +71,7 @@ Este repositório contém exemplos de código usando **Flex** e **Bison** (exclu
     - *Glossário de termos.md*: definições importantes de compiladores e ferramentas.  
     - *Guia - Configuração do ambiente de desenvolvimento.md*: instruções para instalar Flex, Bison e compiladores C/C++.  
     - *Guia - Projeto de um compilador.md* e *Guia - Projeto de um interpretador.md*: conceitos sobre fases de análise léxica, análise sintática, geração de código etc.  
-    - *Projeto da disciplina.md*: detalha a proposta geral (uso de PBL, equipes, entregas P1 e P2, entrevista final).  
+    - *Trabalho de Compiladores.md*: detalha a proposta geral (uso de PBL, equipes, entregas P1 e P2, entrevista final).  
   - **src**:  
     - *hello.l* / *hello.y*: exemplo mínimo que reconhece e imprime “Hello, World!” (Flex e Bison).  
     - *hello.README.md*: explica como compilar e executar o exemplo “hello”.
