@@ -9,7 +9,7 @@
 
 Durante o semestre, cada equipe desenvolverá um **compilador ou interpretador**, aplicando os conceitos discutidos nas aulas. O projeto visa consolidar os conhecimentos da disciplina, integrando teoria e prática por meio da metodologia **Problem Based Learning (PBL)**. 
 
-O trabalho envolve **planejamento, projeto, implementação e documentação**, indo além da codificação. As decisões tomadas devem ser justificadas tecnicamente.
+O trabalho envolve **planejamento, projeto, implementação e documentação**, indo além da codificação. As decisões tomadas devem ser justificadas.
 
 ## **2. Formação das Equipes e Organização do Trabalho**
 
@@ -60,7 +60,7 @@ A nota final será composta pelos seguintes critérios:
 | **Documentação** | Clareza e detalhamento das informações do projeto. |
 | **Entrevista final** | Capacidade da equipe de demonstrar o funcionamento e justificar suas escolhas. |
 
-Para aprovação, os estudantes devem atender aos critérios estabelecidos e ter **pelo menos 75% de presença nas aulas**.
+Para aprovação, os estudantes devem atender aos critérios estabelecidos no plano de ensino e ter **pelo menos 75% de presença nas aulas**.
 
 ## **5. Recomendações**
 
@@ -73,10 +73,13 @@ Para aprovação, os estudantes devem atender aos critérios estabelecidos e ter
 
 ### **Importante sobre as Apresentações (P1 e P2)**
 
-Todas as informações enviadas no formulário (a ser divulgado posteriormente) serão utilizadas para compor a apresentação da equipe no dia do ponto de controle. 
+Todas as informações deverão ser enviadas via formulários cujas informações serão utilizadas para compor a apresentação da equipe no dia do ponto de controle. Os links dos formulários (**conforme o Plano de Ensino**) são:
+- P1: https://forms.office.com/r/MyKh4HiAAu, **aberto de 25/04/2025 a 28/04/2025 às 23:59**.
+- P2: https://forms.office.com/r/gNG6Eb7e71, **aberto de 30/05/2025 a 02/06/2025 às 23:59**.
 
+Outras informações:
 - O professor compilará automaticamente os dados enviados e montará uma sequência de apresentações.
-- No dia do ponto de controle, cada equipe terá **5 minutos** para expor sua evolução, apenas com os elementos informados no formulário.
+- No dia do ponto de controle, cada equipe terá **5 minutos** para expor sua evolução, apenas com elementos informados no formulário.
 - Não haverá ajustes de última hora. Certifiquem-se de que o formulário reflete corretamente o progresso e o planejamento da equipe.
 - A avaliação considerará **a qualidade e consistência dos dados enviados, bem como a clareza da apresentação**.
 - **Somente o líder da equipe deve encaminhar o formulário**. Exceções devem ser previamente comunicadas ao professor.
