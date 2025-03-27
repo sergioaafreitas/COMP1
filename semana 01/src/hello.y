@@ -1,6 +1,6 @@
 %{
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdHelib.h>
 #include <string.h>
 
 /* Declara a função yylex (gerada pelo Flex) e 
@@ -10,7 +10,7 @@ void yyerror(const char *s);
 %}
 
 /* Definições dos tokens usados no .l */
-%token HELLO
+%token HELLO 
 %token WORLD
 
 %%
