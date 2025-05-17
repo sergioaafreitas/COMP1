@@ -2,7 +2,6 @@
 
 **Disciplina:** FGA0003 – Compiladores 1  
 **Professor:** Dr. Sergio Antônio Andrade de Freitas  
-**Autor:** ChatGPT (OpenAI), adaptado por Sergio  
 **Objetivo:** Demonstrar geração de bitcode a partir de código-fonte Java simples utilizando Flex e Bison.
 
 ## Estrutura
