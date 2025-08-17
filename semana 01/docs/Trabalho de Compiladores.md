@@ -1,4 +1,4 @@
-# **Proposta de Trabalho – Compiladores 1 (2025/2)**
+# **Proposta de Trabalho – Compiladores 1**
 
 **Professor:** Sergio Antônio Andrade de Freitas  
 **Contato:** [sergiofreitas@unb.br](mailto:sergiofreitas@unb.br)  
@@ -87,4 +87,4 @@ Outras informações:
 Este projeto será um desafio técnico e organizacional. A disciplina foi estruturada para aprendizado aplicado, permitindo o desenvolvimento de um produto real ao longo do semestre. O sucesso dependerá do comprometimento, planejamento e colaboração da equipe. Boa sorte e bom desenvolvimento!
 
 **Prof. Sergio Freitas**  
-**Compiladores 1 (2025/2)**
+**Compiladores 1**
