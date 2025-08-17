@@ -38,7 +38,7 @@ Este guia apresenta etapas para a implementação prática de um interpretador u
 
 ## Sugestão de Sprints para a construção de um interpretador na disciplina
 
-### Sprint 1 (24/03 a 09/04)  
+### Sprint 1   
 - **Objetivos Principais**  
   - Formar as equipes e organizar o ambiente de trabalho (configurar repositórios, ferramentas, Flex, Bison etc.).  
   - Definir a linguagem-fonte do **interpretador** (sintaxe e semântica básica).  
@@ -56,22 +56,21 @@ Este guia apresenta etapas para a implementação prática de um interpretador u
   4. **Criar gramática inicial** no Bison (arquivo `.y`) e o arquivo de regras léxicas no Flex (arquivo `.l`), ainda que incompletos.  
 
 - **Observações**  
-  - No dia 26/03 (qua), aula prática para configurar o ambiente de desenvolvimento de interpretadores.  
   - Aproveitar as quartas-feiras para “rodar” daily meetings rápidas, verificando se alguém tem pendências ou dificuldades.  
   - Cada integrante deve se familiarizar com Git/GitHub para evitar atrasos futuros.  
 
 ---
 
-### Sprint 2 (10/04 a 30/04)  
+### Sprint 2   
 - **Objetivos Principais**  
   - Concluir a análise léxica com Flex (definição dos tokens da linguagem).  
   - Implementar as regras básicas do analisador sintático com Bison.  
-  - Preparar a apresentação do **Ponto de Controle P1** (dia 30/04).  
+  - Preparar a apresentação do **Ponto de Controle P1**.  
 
 - **Principais Entregas**  
   - Arquivo `.l` completo para reconhecimento de tokens (identificadores, números, símbolos, palavras-chave).  
   - Primeiras regras sintáticas no arquivo `.y`, permitindo testar códigos simples na linguagem.  
-  - Formulário de P1 preenchido até 28/04 (23h59), com apresentação em 30/04.  
+  - Formulário de P1 preenchido, com apresentação.  
 
 - **Tarefas e Atividades**  
   1. **Finalizar** as expressões regulares no arquivo `.l` (tratando espaços, comentários, etc.).  
@@ -80,12 +79,11 @@ Este guia apresenta etapas para a implementação prática de um interpretador u
   4. **Preparar** material de apresentação (P1) sobre o progresso (mostrar tokens reconhecidos e regras sintáticas iniciais).  
 
 - **Observações**  
-  - Feriado em 21/04 (seg): ajustar o ritmo para não acumular tarefas.  
-  - O Sprint fecha em 30/04 com a **apresentação** do P1 (máximo de 5 minutos por equipe).  
+  - O Sprint fecha com a **apresentação** do P1 (máximo de 5 minutos por equipe).  
 
 ---
 
-### Sprint 3 (01/05 a 14/05)  
+### Sprint 3   
 - **Objetivos Principais**  
   - Criar a **árvore sintática abstrata (AST)** para representar construções da linguagem.  
   - Iniciar a **análise semântica** básica, verificando coerência de variáveis e tipos (caso se apliquem).  
@@ -103,21 +101,21 @@ Este guia apresenta etapas para a implementação prática de um interpretador u
   4. **Testar** a AST em pequenos programas (tanto corretos quanto com falhas de sintaxe/semântica).  
 
 - **Observações**  
-  - As quartas-feiras (07/05 e 14/05) são dedicadas ao desenvolvimento prático e integração das tarefas.  
+  - As quartas-feiras são dedicadas ao desenvolvimento prático e integração das tarefas.  
   - Mantenham commit estáveis no repositório para evitar regressões (e documentem bem a AST).  
 
 ---
 
-### Sprint 4 (15/05 a 04/06)  
+### Sprint 4   
 - **Objetivos Principais**  
   - Implementar a **interpretação** da AST (em vez de gerar código, o programa executa diretamente cada nó).  
   - Aprimorar a análise semântica, tratando construções mais complexas (if, while, funções, se a linguagem definir).  
-  - Preparar o **Ponto de Controle P2** (dia 04/06).  
+  - Preparar o **Ponto de Controle P2**.  
 
 - **Principais Entregas**  
   - **Módulo interpretador**: capaz de percorrer a AST e executar instruções (atribuições, expressões, fluxos de controle).  
   - Análise semântica mais robusta (ex.: tipos, escopo, variáveis não declaradas, e possíveis alertas em tempo de execução).  
-  - Formulário de P2 preenchido até 02/06 (23h59) e apresentação em 04/06.  
+  - Formulário de P2 preenchido e apresentação realizada.  
 
 - **Tarefas e Atividades**  
   1. **Criar** a lógica de interpretação recursiva (ex.: `interpretNode()`, que avalia nós de expressão/comando).  
@@ -126,22 +124,22 @@ Este guia apresenta etapas para a implementação prática de um interpretador u
   4. **Preparar** a apresentação P2, mostrando as novidades desde o P1 e a interpretação funcionando.  
 
 - **Observações**  
-  - Use as aulas práticas (21/05, 28/05 e 04/06) para integrar e corrigir bugs.  
-  - O Sprint termina com a **apresentação** P2 (04/06).  
+  - Use as aulas práticas para integrar e corrigir bugs.  
+  - O Sprint termina com a **apresentação** P2.  
 
 ---
 
-### Sprint 5 (05/06 a 25/06)  
+### Sprint 5   
 - **Objetivos Principais**  
   - Adicionar **otimizações** opcionais na interpretação (ex.: simplificação de expressões constantes).  
   - Incluir **recursos adicionais** na linguagem, caso haja tempo (funções, arrays, strings, etc.).  
   - Realizar testes integrados, assegurando que o interpretador cobre todo o escopo definido.  
-  - Preparar a **entrega final** (até 27/06).  
+  - Preparar a **entrega final**.  
 
 - **Principais Entregas**  
   - Interpretador ampliado, com eventuais otimizações e funcionalidades extras.  
   - Testes de integração em diversos programas de exemplo.  
-  - Versão final pronta para entrega até 27/06 (23h59) via Teams.  
+  - Versão final pronta para entrega via Teams.  
 
 - **Tarefas e Atividades**  
   1. **Implementar otimizações** simples (constant folding, remoção de nós redundantes, etc.).  
@@ -150,14 +148,14 @@ Este guia apresenta etapas para a implementação prática de um interpretador u
   4. **Entregar** o projeto final (repositório atualizado, acesso ao professor, e arquivo zip, se exigido).  
 
 - **Observações**  
-  - Quartas-feiras (11/06, 18/06, 25/06) são fundamentais para corrigir bugs e integrar tudo.  
-  - Não deixem a entrega para o último segundo (27/06). Planejem-se para evitar imprevistos.  
+  - Quartas-feiras são fundamentais para corrigir bugs e integrar tudo.  
+  - Não deixem a entrega para o último segundo. Planejem-se para evitar imprevistos.  
 
 ---
 
-### Sprint 6 (26/06 a 09/07)  
+### Sprint 6   
 - **Objetivos Principais**  
-  - Participar das **entrevistas finais** (30/06 e 02/07) com o professor.  
+  - Participar das **entrevistas finais** com o professor.  
   - Corrigir pendências/bugs emergentes.  
   - Concluir a documentação e encerrar a disciplina.  
 
@@ -172,8 +170,7 @@ Este guia apresenta etapas para a implementação prática de um interpretador u
   3. **Finalizar** documentação e organizar exemplos de uso.  
 
 - **Observações**  
-  - As entrevistas ocorrerão em 30/06 (seg) e 02/07 (qua). Falta de comparecimento pode zerar a nota da apresentação final.  
-  - De 07/07 em diante, período de revisão de menções, se necessário.  
+  - Consulte o plano de ensino para verificar as datas das entrevistas. Falta de comparecimento pode zerar a nota da apresentação final.   
 
 ## Dicas Finais
 
