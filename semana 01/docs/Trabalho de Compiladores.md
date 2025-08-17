@@ -1,4 +1,4 @@
-# **Proposta de Trabalho – Compiladores 1 (2025/1)**
+# **Proposta de Trabalho – Compiladores 1 (2025/2)**
 
 **Professor:** Sergio Antônio Andrade de Freitas  
 **Contato:** [sergiofreitas@unb.br](mailto:sergiofreitas@unb.br)  
@@ -74,8 +74,8 @@ Para aprovação, os estudantes devem atender aos critérios estabelecidos no pl
 ### **Importante sobre as Apresentações (P1 e P2)**
 
 Todas as informações deverão ser enviadas via formulários cujas informações serão utilizadas para compor a apresentação da equipe no dia do ponto de controle. Os links dos formulários (**conforme o Plano de Ensino**) são:
-- P1: https://forms.office.com/r/MyKh4HiAAu, **aberto de 25/04/2025 a 28/04/2025 às 23:59**.
-- P2: https://forms.office.com/r/gNG6Eb7e71, **aberto de 30/05/2025 a 02/06/2025 às 23:59**.
+- P1: https://forms.office.com/r/MyKh4HiAAu
+- P2: https://forms.office.com/r/gNG6Eb7e71
 
 Outras informações:
 - O professor compilará automaticamente os dados enviados e montará uma sequência de apresentações.
@@ -87,4 +87,4 @@ Outras informações:
 Este projeto será um desafio técnico e organizacional. A disciplina foi estruturada para aprendizado aplicado, permitindo o desenvolvimento de um produto real ao longo do semestre. O sucesso dependerá do comprometimento, planejamento e colaboração da equipe. Boa sorte e bom desenvolvimento!
 
 **Prof. Sergio Freitas**  
-**Compiladores 1 (2025/1)**
+**Compiladores 1 (2025/2)**
